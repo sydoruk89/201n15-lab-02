@@ -1,2 +1,6 @@
-# 201n15-lab-02
-201n15 lab 02
+Lab 2
+"About me" project
+Roman Sydoruk 201N15
+Links and Resources
+
+
