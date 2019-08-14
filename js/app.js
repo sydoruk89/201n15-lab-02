@@ -12,7 +12,7 @@ var likeWeather = prompt('Do I like weather in Seattle? Yes/No');
 likeWeather = likeWeather.toLowerCase();
 if(likeWeather === 'yes'  || likeWeather === 'y'){
   alert('You are not right! ');
-  console.log('The answer is', likeWeather, typeof likeWether);
+  console.log('The answer is', likeWeather, typeof likeWeather);
 } else if (likeWeather === 'no' || likeWeather === 'n') {
   alert('Yep, that is true, I do not like weather but I like the city and nature around!');
   console.log('The answer is', likeWeather, typeof likeWether);
