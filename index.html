@@ -1,35 +1,83 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>demo day 2</title>
-    <link href="css/reset.css" type="text/css" rel="stylesheet" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a>Link 1</a></li>
-          <li class="second"><a>Link 2</a></li>
-          <li><a>Link 3</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <h1>Things That Annoy My Daughter</h1>
-      <ol>
-        <li>question</li>
-        <li class="second">family dinners</li>
-        <li>singing</li>
-        <li>board games</li>
-        <li>family outings</li>
-      </ol>
-    </main>
-
-    <footer>
-
-    </footer>
-    <script type="text/javascript" src="js/app.js"></script>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Blog</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="img/blog_icon.ico" rel="shortcut icon" type="img/x-icon"/>
+        <link href="css/reset.css" type="text/css" rel="stylesheet" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body class="page">
+        <div class="page__row">
+            <div class="page__cell">
+                <header class="header">
+                    <a href="index.html" title="Go to my Blog home" class="logo">Roman Sydoruk<br>PERSONAL BLOG</a>
+                    <span class="right"><a href="https://www.facebook.com/"><img src="img/facebook.png" title="Go to Facebook" alt="Facebook"></a><a href="https://www.instagram.com/"><img src="img/insta.png" title="Go to Instagram" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/"><img src="img/linkedin.png" title="Go to Linkedin" alt="Linkedin"></a>
+                    </span>
+                </header>
+            </div>
+        </div>
+        <div class="page__cell">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                    <a href="№" class="nav__link">HOME</a>
+                    </li>
+                    <li class="nav__item">
+                    <a href="№" class="nav__link">ABOUT ME</a>
+                    </li>
+                    <li class="nav__item">
+                    <a href="№" class="nav__link">HIKING</a>
+                    <li class="nav__item">
+                    <a href="№" class="nav__link">TRAVELING</a>
+                    </li> 
+                    <li class="nav__item">
+                    <a href="№" class="nav__link">CONTACTS</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="img1">
+            <img src="img/Roman_SS.jpg" alt="Nature">
+        </div>
+        <div class="page__cell">
+            <section class="section">
+                <h2 class="headline">About me</h2>
+                    <p>I'm a future full stack developer with background in Law. Passionate about web development and social networking, efficiency while developing creative, customer-focused solutions. Studying at Code Fellows bootcamp, I realized that I want to be a part of the world of intellectual technologies. I love to learn new things about coding and really inspired to create something new in web developing. Working as an assistant at the university, I was in the top of the staff that students wanted to have with their projects. I'm interested in social projects aimed at preserving the environment, so I believe that the future is in electric cars. My life credo is a bird in the hand is worth two in the bush. I am a team player and really appreciate reliability and responsibility. Once I was told I am the most reliable person in the world. </p>
+            </section>
+            <section class="section">
+                <h2 class="headline">Popular</h2>
+                <div class="grid">
+                    <div class="grid__item">
+                        <div class="grid__link">
+                        <a href="#"><img src="img/Olympic.jpg" alt="Olympic Game Farm">
+                        <div class="grid__text">
+                        Olympic National Park
+                        </div>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="grid__link">
+                            <a href="#"><img src="img/Diablo_lake.jpg" alt="Diablo Lake">
+                            <div class="grid__text">
+                            Diablo Lake
+                            </div>
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+          <div class="footer__copyright">
+            Roman Sydoruk &copy; 2019
+            <span class="right right__footer"><a href="https://www.facebook.com/"><img src="img/facebook.png" title="Go to Facebook" alt="Facebook"></a><a href="https://www.instagram.com/"><img src="img/insta.png" title="Go to Instagram" alt="Instagram"></a> <a href="https://www.linkedin.com/"><img src="img/linkedin.png" title="Go to Linkedin" alt="Linkedin"></a>
+            </span>
+          </div>  
+        </footer>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
 </html>
