@@ -18,6 +18,7 @@ for (var i = 0; i < 5; i++) {
   if (i === 0) {
     if (askQuestion === yesNo[2] || askQuestion === yesNo[3]){
       alert('Correct!');
+      console.log('answer ' + askQuestion);
       correct++;
     } else {
       alert('Nope!');
@@ -25,9 +26,11 @@ for (var i = 0; i < 5; i++) {
   } else {
     if (askQuestion === yesNo[0] || askQuestion === yesNo[1]){
       alert('Correct!');
+      console.log('answer ' + askQuestion);
       correct++;
     } else {
       alert('Nope!');
+      console.log('answer ' + askQuestion);
     }
   }
 }
@@ -68,16 +71,20 @@ while(count <= q7Guesses) {
 
   for(i = 0; i < myFavouriteSport.length; i++) {
     if(guessSport === myFavouriteSport[i]){
+      console.log('sport ' + myFavouriteSport[i]);
       inArray = true;
+      console.log('inside for loop');
     }
   }
   if (inArray === true){
     correct++;
     alert('Yep!');
+    console.log('inside if statement');
     break;
   }
   else if (inArray === false){
     guessSport = prompt('Sorry, not one of my favorite sports! Try again. You have ' + guessesLeft + ' guesses left!');
+    console.log('guess sport ' + guessSport);
   }
 }
 
